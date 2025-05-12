@@ -8,7 +8,7 @@
 
 - **Bloch Sphere Representation**:
   - Visual representation of a qubit state:
-    - |ψ⟩ = cos(θ/2)|0⟩ + e^{iφ} sin(θ/2)|1⟩
+    - |ψ⟩ = cos(θ/2)|0⟩ + $e^{iφ}$ sin(θ/2)|1⟩
   - Useful for understanding single-qubit gate effects.
 
 - **Measurement**:
