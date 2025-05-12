@@ -57,19 +57,3 @@
 
 Apply a Hadamard gate to |0⟩ and observe measurement outcomes.
 
-```python
-from qiskit import QuantumCircuit
-from qiskit_aer import AerSimulator
-from qiskit.visualization import plot_histogram
-
-qc = QuantumCircuit(1, 1)
-qc.h(0)
-qc.measure(0, 0)
-
-sim = AerSimulator()
-qc = qc.transpile(sim)
-result = sim.run(qc, shots=1000).result()
-counts = result.get_counts()
-
-plot_histogram(counts)
-
