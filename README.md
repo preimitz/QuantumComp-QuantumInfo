@@ -10,8 +10,8 @@ This repository documents my self-study journey through Quantum Computing. To le
 
 ## 📚 References
 
-> Nielsen, M. A., & Chuang, I. L. (2010). *Quantum Computation and Quantum Information*. Cambridge University Press.
-> IBM Quantum Platform https://quantum.cloud.ibm.com/learning/en
+- Nielsen, M. A., & Chuang, I. L. (2010). *Quantum Computation and Quantum Information*. Cambridge University Press.
+- IBM Quantum Platform https://quantum.cloud.ibm.com/learning/en
 
 ## 🗂 Structure
 
