@@ -20,3 +20,6 @@ Thumbs.db
 
 # VSCode settings
 .vscode/
+
+# keys
+apikey.json
