@@ -15,8 +15,8 @@ This repository documents my self-study journey through Quantum Computing. To le
 
 ## 🗂 Structure
 
-- `chapters/`: Chapter-by-chapter notes and code implementations.
-- `notebooks/`: Standalone notebooks for exploring core concepts.
+- `chapters/`: Chapter-by-chapter notes and code implementations following a pedagogical introduction to Quantum Computation and Information.
+- `special-topics/`: Specialised topics like Quantum Machine Learning or HPC.
 - `experiments/`: Implementations of key algorithms (e.g. Deutsch-Jozsa, Shor, Grover).
 - `quantum-computing-tools/`: Learn Quantum Computing Tools like Qiskit and PennyLane.
 - `resources/`: Supplementary reading and learning materials.
