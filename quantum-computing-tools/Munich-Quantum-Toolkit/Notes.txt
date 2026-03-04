@@ -1,0 +1,24 @@
+### Problemsolver ###
+1. Installation
+
+Python version compatibility issue, mqt.problemsolver pulled numpy==1.23.5 which is too old for Python 3.12, when 'uv' tried to build it, it expects 'distutils' which was removed in python 3.12. 
+
+Best fix:
+uv python install 3.11
+uv venv --python 3.11
+source .venv/bin/activate
+uv pip install mqt.problemsolver
+
+2. Installation check
+
+python -c "import mqt.problemsolver; print(mqt.problemsolver.__version__)"
+did not work! The installation page suggests it, but for the installed release 0.4 that attribute appears missing/outdated in docs.
+
+Instead try:
+python -c "from importlib.metadata import version; print(version('mqt-problemsolver'))"
+and
+uv run python -c "import mqt.problemsolver as p; print(p)"
+uv run python -c "from importlib.metadata import version; print(version('mqt-problemsolver'))"
+
+if a warning like "warning: Ignoring unsupported Python request system in version file: /Users/......./.python-version" appears, this can easily be solved with
+echo "3.11" > .python-version

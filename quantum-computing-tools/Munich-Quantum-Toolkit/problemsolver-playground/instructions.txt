@@ -1,0 +1,5 @@
+mkdir problemsolver-playground && cd problemsolver-playground
+uv init
+echo "3.11" > .python-version
+uv add mqt.problemsolver
+uv run python -c "import mqt.problemsolver"
